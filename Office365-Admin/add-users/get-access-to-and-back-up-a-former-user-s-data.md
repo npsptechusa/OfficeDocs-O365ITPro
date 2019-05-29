@@ -29,7 +29,12 @@ description: "Learn how to preserve an employee's files and emails when the pers
 
 # Get access to and back up a former user's data
 
- 
+ ::: moniker range="o365-worldwide"
+
+> [!TIP]
+> Need help with the steps in this topic? We’ve got you covered. Make an appointment at your local Microsoft Store with an Answer Desk expert to help resolve your issue. Go to the [Microsoft Stores page](https://go.microsoft.com/fwlink/?LinkID=2041482) and choose your location to schedule an appointment.
+
+::: moniker-end
 
 When an employee leaves your organization, you probably want to access their data (documents and emails) and either review it, back it up, or transfer ownership to a new employee.
   
@@ -37,47 +42,44 @@ When an employee leaves your organization, you probably want to access their dat
 ## Access a former user's OneDrive documents
 
 
-If you remove a user's Office 365 license but don't delete the account, you retain access to the content in the user's OneDrive site. If you delete their Office 365 account you have 30 days to access a former user’s OneDrive data. If you don't [restore a user account](https://docs.microsoft.com/office365/admin/add-users/restore-user) within 30 days their OneDrive content is deleted. Before you delete the account, you should move the content from their OneDrive to another location.
+If you remove a user's Microsoft 365 license but don't delete the account, you retain access to the content in the user's OneDrive site. If you delete their Microsoft 365 account you have 30 days to access a former user’s OneDrive data. If you don't [restore a user account](https://docs.microsoft.com/office365/admin/add-users/restore-user) within 30 days their OneDrive content is deleted. Before you delete the account, you should move the content from their OneDrive to another location.
 
 To preserve a former user's OneDrive for Business documents you first access their OneDrive site and then move the files. 
 
-1. Sign in to Office 365 with your work or school account. 
+1. Sign in to Microsoft 365 with your work or school account. 
     
-2. Go to the [![Office 365 admin center.](../media/e00ba917-c3fb-4173-b344-43eb5c7eeb15.png)](https://portal.office.com/adminportal/home).
+2. Go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
     
-3. Go to **Active Users** and select the user.
-    
-4. Expand **OneDrive Settings** in the user details pane, and select **Access files**.
-    
-5. Copy the files to your own OneDrive for Business or a common location.
-    
-    There are a few ways to copy files in Office 365. See [Video: Set up document storage and sharing in Office 365](https://support.office.com/article/6a41fb61-9c11-4adf-9b98-f7910fe1b0d2.aspx). Or, to sync your files, and then upload those files to your OneDrive for Business or your team site, see [Sync files with the new OneDrive sync client in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49.aspx).
-    
+3. Choose **User management** and on the **Active users** page select the user.
+
+4. Choose **OneDrive** and under **Get access to files**, click **Create link to files**.
+
+5. Click the link to open the file location and download and copy the files to your own OneDrive for Business, or a common location. You can also share the link with another user to download the files.
+
     > [!NOTE]
     > You can move up to 500 MB of files and folders at a time.
-    > When you use **Move to** with documents that have version history, only the latest version is moved. To move earlier versions, you need to restore and move each one. 
+    > When you use Move to with documents that have version history, only the latest version is moved. To move earlier versions, you need to restore and move each one. 
     
 ## Revoke admin access to a user’s OneDrive site
 
 
-As global admin you have access to the content in a user’s OneDrive site, but you may want to remove your access to a user’s documents. By default, the OneDrive Site Collection Administrator is the owner of the OneDrive account. The following steps describe how to remove a Site Collection Admin on a user’s OneDrive site.
+As global admin you have access to the content in a user’s OneDrive site, but you may want to remove your access to a user’s documents. By default, the OneDrive Site Collection Administrator is the owner of the OneDrive account. The following steps describe how to remove a Site Collection Admin from a user’s OneDrive site.
 
-1. Sign in to the [![Office 365 admin center.](../media/e00ba917-c3fb-4173-b344-43eb5c7eeb15.png)](https://portal.office.com/adminportal/home) as a global or SharePoint admin. 
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822) as a global admin or SharePoint admin. 
 
- > [!NOTE]
- > If you see a message that you don't have permission to access the page, you don't have Office 365 administrator permissions in your organization.)
+    If you get a message that you don't have permission to access the admin center then you don't have administrator permissions in your organization.
 
-2. In the left pane, under **Admin Centers**, select **SharePoint**.
+2. In the left pane, choose **Admin centers > SharePoint**.
 
-3. In the left pane, select **User Profiles**.
+3. In the left pane, choose **User Profiles**.
 
-4. Under **People**, select **Manage User Profiles**.
+4. Under **People** select **Manage User Profiles**.
 
 5. Enter the user's name and select **Find**.
 
-6. Right-click the user, and then select **Manage site collection owners**.
+6. Right-click the user, then select **Manage site collection owners**.
 
-7. Remove  the name of the user who no longer needs access, then select OK.
+7. Remove the person who no longer needs access to the user's data, then select **OK**.
 
 Learn more about how to add or remove site collection admins [in the new SharePoint admin center](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators#add-or-remove-site-collection-admins-in-the-new-sharepoint-admin-center), or [in the classic SharePoint admin center](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators#add-or-remove-site-collection-admins-in-the-classic-sharepoint-admin-center).
 
@@ -127,7 +129,7 @@ Outlook begins the export immediately unless a new Outlook Data File (.pst) is c
     
   - If you're exporting to an existing Outlook Data File (.pst) that is password protected, in the **Outlook Data File Password** dialog box, type the  *password*  , and then click **OK**.
     
-Check out [Export or backup email, contacts, and calendar to an Outlook .pst file](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) for the steps for Outlook 2010. 
+See how to [Export or backup email, contacts, and calendar to an Outlook .pst file](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) in Outlook 2010. 
   
 ## Give another user access to a former user's email 
 <a name="bkmk_import"> </a>
@@ -163,7 +165,6 @@ To give access to the email messages, calendar, tasks, and contacts of the forme
 > [!TIP]
 > If you want to import or restore only a few items from an Outlook Data File (.pst), you can open the Outlook Data File, and then, in the navigation pane, click and drag the items from Outlook Data File folders to your existing Outlook folders. 
   
-Check out [Import email, contacts, and calendar from an Outlook .pst file](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx) for the steps for Outlook 2010. 
   
 ## Related Topics
 [Remove a former employee from Office 365](remove-former-employee.md)
@@ -173,9 +174,5 @@ Check out [Import email, contacts, and calendar from an Outlook .pst file](https
 [Manage site collection administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators#add-or-remove-site-collection-admins-in-the-new-sharepoint-admin-center)
   
 [OneDrive retention and deletion](https://docs.microsoft.com/onedrive/retention-and-deletion)
-
-[How SharePoint Online and OneDrive safeguard your data in the cloud](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
-
-
 
 
