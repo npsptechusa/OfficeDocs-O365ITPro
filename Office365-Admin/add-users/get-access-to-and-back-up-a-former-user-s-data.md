@@ -45,33 +45,31 @@ If you remove a user's Microsoft 365 license but don't delete the account, you r
 
 To preserve a former user's OneDrive for Business documents you first access their OneDrive site and then move the files. 
 
-1. Sign in to Microsoft 365 with your work or school account. 
+1. In the admin center, go to the **User management > [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822)** page.
     
-2. Go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822).
-    
-3. Choose **User management** and on the **Active users** page select the user.
+2. Select a user.
 
-4. Choose **OneDrive** and under **Get access to files**, click **Create link to files**.
+3. In the right page, choose  **OneDrive**. Under **Get access to files**, choose **Create link to files**.
 
-5. Click the link to open the file location and download and copy the files to your own OneDrive for Business, or a common location. You can also share the link with another user to download the files.
+4. Click the link to open the file location and download and copy the files to your own OneDrive for Business, or a common location. You can also share the link with another user to download the files.
 
     > [!NOTE]
     > You can move up to 500 MB of files and folders at a time.
-    > When you use Move to with documents that have version history, only the latest version is moved. To move earlier versions, you need to restore and move each one. 
+    > When you use **Move to** with documents that have version history, only the latest version is moved. To move earlier versions, you need to restore and move each one. 
     
 ## Revoke admin access to a user’s OneDrive site
 
 As global admin you have access to the content in a user’s OneDrive site, but you may want to remove your access to a user’s documents. By default, the OneDrive Site Collection Administrator is the owner of the OneDrive account. The following steps describe how to remove a Site Collection Admin from a user’s OneDrive site.
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=834822) as a global admin or SharePoint admin. 
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=837890) as a global admin or SharePoint admin. 
 
-    If you get a message that you don't have permission to access the admin center then you don't have administrator permissions in your organization.
+    If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
 
 2. In the left pane, choose **Admin centers > SharePoint**.
 
 3. In the left pane, choose **User Profiles**.
 
-4. Under **People** select **Manage User Profiles**.
+4. Under **People**, choose **Manage User Profiles**.
 
 5. Enter the user's name and select **Find**.
 
@@ -83,7 +81,6 @@ Learn more about how to add or remove site collection admins [in the new SharePo
 
     
 ## Access the Outlook data of a former user
-
 
 To save the email messages, calendar, tasks, and contacts of the former employee, export the information to an Outlook Data File (.pst).
   
@@ -130,7 +127,6 @@ Outlook begins the export immediately unless a new Outlook Data File (.pst) is c
 See how to [Export or backup email, contacts, and calendar to an Outlook .pst file](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) in Outlook 2010. 
   
 ## Give another user access to a former user's email 
-<a name="bkmk_import"> </a>
 
 To give access to the email messages, calendar, tasks, and contacts of the former employee to another employee, import the information to another employee's Outlook inbox.
 
