@@ -41,7 +41,6 @@ When an employee leaves your organization, you probably want to access their dat
     
 ## Access a former user's OneDrive documents
 
-
 If you remove a user's Microsoft 365 license but don't delete the account, you retain access to the content in the user's OneDrive site. If you delete their Microsoft 365 account you have 30 days to access a former user’s OneDrive data. If you don't [restore a user account](https://docs.microsoft.com/office365/admin/add-users/restore-user) within 30 days their OneDrive content is deleted. Before you delete the account, you should move the content from their OneDrive to another location.
 
 To preserve a former user's OneDrive for Business documents you first access their OneDrive site and then move the files. 
@@ -61,7 +60,6 @@ To preserve a former user's OneDrive for Business documents you first access the
     > When you use Move to with documents that have version history, only the latest version is moved. To move earlier versions, you need to restore and move each one. 
     
 ## Revoke admin access to a user’s OneDrive site
-
 
 As global admin you have access to the content in a user’s OneDrive site, but you may want to remove your access to a user’s documents. By default, the OneDrive Site Collection Administrator is the owner of the OneDrive account. The following steps describe how to remove a Site Collection Admin from a user’s OneDrive site.
 
