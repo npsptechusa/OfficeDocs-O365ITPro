@@ -45,11 +45,11 @@ If you remove a user's Microsoft 365 license but don't delete the account, you r
 
 To preserve a former user's OneDrive for Business documents you first access their OneDrive site and then move the files. 
 
-1. In the admin center, go to the **User management > [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822)** page.
+1. In the admin center, go to the **Users** > **[Active users](https://go.microsoft.com/fwlink/p/?linkid=834822)** page.
     
 2. Select a user.
 
-3. In the right page, choose  **OneDrive**. Under **Get access to files**, choose **Create link to files**.
+3. In the right pane, choose  **OneDrive**. Under **Get access to files**, choose **Create link to files**.
 
 4. Click the link to open the file location and download and copy the files to your own OneDrive for Business, or a common location. You can also share the link with another user to download the files.
 
@@ -65,7 +65,7 @@ As global admin you have access to the content in a user’s OneDrive site, but 
 
     If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
 
-2. In the left pane, choose **Admin centers > SharePoint**.
+2. In the left pane, choose **Admin centers** > **SharePoint**.
 
 3. In the left pane, choose **User Profiles**.
 
